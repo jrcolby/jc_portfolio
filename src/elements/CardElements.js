@@ -9,7 +9,8 @@ export const BasicCardWrapper = styled.div`
    justify-content: center;
    position: relative;
    margin: 1rem;
-   border: 2px green dashed;
+   border: 2px dashed;
+   border-color: ${props => props.theme.colors.bright2};
    cursor: pointer;
    transition: all 0.3s ease 0s;
     

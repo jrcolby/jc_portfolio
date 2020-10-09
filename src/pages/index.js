@@ -1,7 +1,7 @@
 import React from "react"
 import { Container } from "../components/Container"
 import {Content} from "../components"
-import {Card,Seo} from "../components"
+import {Card} from "../components"
 import {Helmet} from "react-helmet"
 import { graphql } from "gatsby"
 

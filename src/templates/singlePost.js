@@ -1,16 +1,17 @@
 import React from "react"
 import { graphql } from "gatsby"
 import {MDXRenderer} from "gatsby-plugin-mdx"
-import {H1} from "../elements"
-import {Container,Post} from "../components"
-import Img from "gatsby-image"
+import {Helmet} from "react-helmet"
+import {Container,Post, Seo} from "../components"
+
 const singlePost = ({data}) => {
-    const featureImage = data.mdx.frontmatter.featureImage.childImageSharp.fluid
 
     return(
-       //FeatureImage frompost
+       
         <Container>
-           
+        <Helmet>
+      <title>Jim Colby</title>
+    </Helmet>
             <Post>
                 <MDXRenderer>{data.mdx.body}</MDXRenderer>
             </Post>

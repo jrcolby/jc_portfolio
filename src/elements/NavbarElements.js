@@ -17,15 +17,15 @@ export const NavWrapper = styled.div`
   
         border-color: ${props => props.theme.colors.bright1};
         animation-name: flash_border;
-        animation-duration: 8s;
+        animation-duration: 4s;
         animation-timing-function: ease;
         animation-iteration-count: infinite;
         -webkit-animation-name: flash_border;
-        -webkit-animation-duration: 8s;
+        -webkit-animation-duration: 4s;
         -webkit-animation-timing-function: ease;
         -webkit-animation-iteration-count: infinite;
         -moz-animation-name: flash_border;
-        -moz-animation-duration: 8s;
+        -moz-animation-duration: 4s;
         -moz-animation-timing-function: ease;
         -moz-animation-iteration-count: infinite;
       
@@ -95,7 +95,7 @@ export const NavWrapper = styled.div`
 
     @media ${props => props.theme.breakpoints.tablet}{
        
-        grid-column: 2 / span 3;
+        grid-column: 2 / span 6;
         
         
     }

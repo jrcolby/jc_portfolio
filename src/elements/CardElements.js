@@ -12,7 +12,6 @@ export const BasicCardWrapper = styled.div`
    border: 2px green dashed;
    cursor: pointer;
    transition: all 0.3s ease 0s;
-    filter: sepia(100%);
     
   
   

@@ -5,7 +5,12 @@
  */
 
 module.exports = {
-  /* Your site config here */
+  siteMetadata:{
+    title: "Jim Colby",
+    description: "Jim Colby's Portfolio",
+    url: "https://www.jimcolby.com",
+    image: "/images/cucumberman.jpg",
+  },
   plugins: [`gatsby-plugin-sass`,
             `gatsby-plugin-react-helmet`,
             `gatsby-plugin-sharp`,

@@ -1,15 +1,21 @@
 import React from "react"
 import { Container } from "../components/Container"
 import {Content} from "../components"
-import {Card} from "../components"
+import {Card,Seo} from "../components"
+import {Helmet} from "react-helmet"
 import { graphql } from "gatsby"
 
 export default function index({data}){
   
   return( 
+    
    <Container>
+    
+    <Helmet>
+      <title>Jim Colby</title>
+    </Helmet>
     <Content>
-     
+  
      
     {data.allMdx.edges.map(edge =>(
       

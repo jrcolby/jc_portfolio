@@ -14,7 +14,7 @@ const OtherNav = styled.ul`
         
     a{
         font-family: ${props => props.theme.fonts.navlink};
-        // text-decoration: none;
+        text-decoration: none;
         font-size: 1.5rem;
         
         color: ${props => props.theme.colors.bright2};

@@ -33,7 +33,7 @@ export const BasicCardWrapper = styled.div`
         filter: saturate(170%);
     }
     
-` 
+`
 export const HoverText = styled.div`
 
     // text-decoration: none;
